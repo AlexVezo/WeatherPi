@@ -1,9 +1,9 @@
 /* 
- * @author:   Alexandar Vesovic
+ * @author:   AlexVezo
  * @date:     Feb 2019
  * @version:  V1.0
- * @info:     
- * @uses:     Adafruit ...
+ * @info:     Measure and send data via GET request via microcontroller ESP32 
+ * @uses:     Adafruit_Sensor, Adafruit_BME280, WiFi, Wire
  * @licence:  GNU GPL V3
  */
 
