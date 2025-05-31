@@ -1,0 +1,273 @@
+.logo_cloud {
+	height: 125px;
+	width:  125px;
+	vertical-align: middle;
+
+} .logo_menu {
+	height: 125px;
+	width:  125px;
+	vertical-align: middle;
+	border: 1px solid black;
+	border-radius: 10px;
+
+} .table_menu {
+	display: none;
+
+} td {
+	width: 1%;
+
+} ul {
+	display: none;
+
+} li {
+/*	border: 1px solid black;
+	max-width: 100%;
+	border-radius: 10px;
+	display: inline-block;*/
+	list-style-type: none;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 3em;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
+.click {
+}
+
+.bg_nav {
+	background-color: rgba(44, 159, 98, 0.5);
+}
+
+.bg_side {
+	background-color: #B4EFB9;
+}
+
+.bg_content {
+	background-color: #90CCA2;
+}
+
+.hidden {
+	display:none;
+}
+
+
+.head_table {
+	margin-top: -30px;
+
+} .header {
+	width: 100%;
+	max-height: 200px;
+	background-color: #0091BD;
+	padding-bottom: 50px;
+}
+
+.header_cloud {
+	margin-left: 40px;
+	margin-top: -60px;
+}
+
+.header_title {
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 70px;
+}
+
+.header_menu {
+	padding-right: 40px;
+	padding-top: 100px;
+	margin-top: -50px;
+}
+
+.content_article {
+	position: relative;
+	max-width: 100%;
+	margin-top: 0px;
+	word-wrap: break-word;
+	padding: 30px;
+	font-size: 2em;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+	margin-top: 0px;
+	word-wrap: break-word;
+
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.subtitle {
+	font-size: 3em;
+}
+
+.content_text {
+	font-size: 2.2em;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.menu {
+
+}
+
+.readings {
+	line-height: 80px;
+	text-align: left;
+	font-size: 3em;
+	font-family: Cortana;
+}
+
+.footer {
+	height: auto;
+	width: 100%;
+	float: left;
+	background-color: #F19D55;
+
+}
+
+.footer_subtitle {
+	display:none;
+}
+
+.footer_title {
+    font-size: 3em;
+    line-height: 80px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;
+    word-wrap: break-word;
+}
+
+.footer_picture{
+	float: right;
+	margin-right: 40px;
+	margin-top: 25px;
+}
+
+.footer_text{
+	font-size: 3em;
+	line-height: 80px;
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+	display:none;
+	float: left;
+	word-wrap: break-word;
+}
+
+.wdata_table {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.wdata_name {
+	text-align: left;
+	padding-left: 10%;
+	width: 60%;
+	font-size: 2em;
+
+} .wdata_value {
+	width: 50px;
+	font-size: 2em;
+	text-align: left;
+
+} .wdata_unit {
+	width: 20%;
+	font-size: 2em;
+
+	padding-right: 10%;
+
+} .content_link {
+	position: relative;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1.4em;
+}
+
+/* ----------- WeatherPi: Graph ------------ */
+.graph {
+	text-align: center;
+	max-width: 100%;
+	min-height: 780px;
+
+	padding: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+	font-size: 2em;
+	background-color: rgba(44, 159, 98, 0.5);
+}
+
+.bg_buttons {
+	background-color: #90CCA2;
+}
+
+.container {
+        width: 100%;
+        margin: 20px auto;
+}
+
+.graph_buttons {
+	max-width: 100%;
+	padding: 40px;
+	padding-right: 40px;
+	display: inline-block;
+	line-height: 60px;
+	font-size: 1em;
+}
+
+.inner_graph {
+	width: 100%;
+	float: left;
+}
+
+input {
+	width: 420px;
+	height: 100px;
+	padding: 10px;
+	margin: 10px 10px 10px 10px;
+
+	border: none;
+	font-size: 2em;
+
+
+} td {
+	font-size: 1em;
+	text-align: center;
+
+} .ci {
+	width: 100%;
+
+} .p {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 140px;
+} .anker {
+	background-color: #B4EFB9;
+	width: 100%;
+
+}	.form_wdata {
+		  height: 2em;
+	    width: 3em;
+	    border: 1px solid black;
+	    border-radius: 10px;
+	}
+
+	.ul {
+		visibility: hidden;
+	}
+	.nice_button {
+		  background-color: #4CAF50; /* Green */
+			border: 1px solid brown;
+		  color: black;
+		  padding: 60px 120px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 2em;
+		}

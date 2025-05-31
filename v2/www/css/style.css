@@ -1,0 +1,122 @@
+/* Needed on every web page */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(161,202,245,0.65); 
+	min-width: 320px;
+	font-family: Georgia;
+
+} a {
+	text-decoration: none;
+	font-style: italic;
+	color: black;
+
+} ul {
+	text-align: center;
+
+} .wrapper {
+	position: absolute;
+	top:0px;
+	width: 100%; 
+	height: 100%;
+}
+
+.img_cloud {
+	width: 150px;
+}
+
+.head_picture {
+	width: 150px;
+}
+
+
+/* CSS-Elements as class */
+
+.f_left { 
+	float: left; 
+}
+
+.f_right { 
+	float: right; 
+}
+
+.t_center { 
+	text-align: center; 
+}
+
+.p_corr {
+	margin-top: -65px;
+}
+
+td {
+	min-width: 1%;
+}
+
+.bg_orange { 
+	background-color: rgba(44, 159, 98, 0.5);
+}
+
+.no-italic {	
+	font-style: normal; 
+}
+
+.bold {	
+	font-weight: bold; 
+}
+
+.scriptcode {
+	font-family: Courier,monospace;
+	padding: 1em;
+	background-color: #F0F8FF;
+
+} 
+
+.rotateimg {
+  -webkit-transform: rotate(90deg);
+  -moz-transform:    rotate(90deg);
+  -ms-transform:     rotate(90deg);
+  -o-transform:      rotate(90deg);
+  transform:         rotate(90deg);
+}
+
+/**
+ * Box: This div-class ist used for tablet.php to monitor
+ * the readings in "boxes". The background is associated 
+ * with a specific reading.
+ */
+
+.box_value {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 3.2em;
+	font-family: Verdana;
+
+} .red {
+	background-color: red;
+} .green {
+	background-color: #7AB55C;
+} .blue {
+	background-color: #97DBED;
+} .dark {
+	background-color: #583843;
+} .pink {
+	background-color: #E4B0A2;
+} .yellow {
+	background-color: #F2DB5B;
+} .pastell {
+	background-color: #B0ABC3;
+
+} .right {
+	float: right;
+
+} .left {
+	float: left;
+
+} .box {
+	vertical-align: middle;
+	width: 50%;	
+	padding-top: 8.2%;
+	padding-bottom: 8.2%;
+}
+

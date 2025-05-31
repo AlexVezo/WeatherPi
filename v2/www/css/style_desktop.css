@@ -1,0 +1,290 @@
+.logo_cloud {
+	height: 50px;
+	width: 50px;
+	vertical-align: middle;
+
+} .logo_menu {
+	height: 50px;
+	width: 50px;
+	vertical-align: middle;
+
+} ul.list {
+	padding-right: 50px;
+
+} li.list_menu {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 30px;
+
+} li.border_around {
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+	width: 250px;
+
+} .header_title {
+	font-size: 2em;
+	margin-right: 10%;
+
+} .subtitle {
+	font-size: 1.8em;
+	font-style: bold;
+
+} .header {
+/*
+	background-color: #FF6A25;
+	background-color: #2CB629; */
+
+	background-color: #0091BD;
+	position: relative;
+	padding: 30px;
+	text-align: center;
+
+	max-height: 50px;
+	max-width: 100%;
+	margin-top: -20px;
+	margin-bottom: 0px;
+
+} .header_menu {
+
+} .head_table {
+
+} .head_table_tr {
+	line-height: 0px;
+
+} .menu {
+	position: relative;
+	width: 100%;
+
+	max-height: 70px;
+	min-height: 70px;
+
+	float: left;
+	background-color: #67C583;
+	font-size: 1.1em;
+
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+
+} .content {
+	min-height: 400px;
+	max-width: 40%;
+	min-width: 40%;
+	float: left;
+
+	margin: 40px;
+	margin-right: 35px;
+	padding: 20px;
+
+	font-size: 1.1em;
+	background-color: #67C583;
+
+} .content_article {
+	min-height: 400px;
+	margin: 50px;
+	padding: 20px;
+	font-size: 1em;
+
+} .readings {
+	line-height: 34px;
+	text-align:left;
+
+} .footer {
+	margin-top: 50px;
+	padding-top: 5px;
+
+	height: 250px;
+	width: 100%;
+	float: left;
+
+	display: inline-block;
+	background-color: #F19D55;
+
+} .footer_title {
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	max-width: 45%;
+
+	float: left;
+	word-wrap: break-word;
+
+} .footer_text {
+	margin-top: 60px;
+	margin-left: 40px;
+	margin-right: 40px;
+	max-width: 45%;
+
+	display: inline-block;
+        word-wrap: break-word;
+
+} .footer_picture {
+    float: right;
+    margin-right: 40px;
+    margin-top: 25px;
+
+} .container {
+  width: 98%;
+}
+
+.img_cloud {
+	margin-left: 15%;
+}
+
+.table_left {
+	width: 5%;
+}
+
+.table_center {
+	float: left;
+}
+
+.table_menu {
+	width: 600px;
+}
+
+.bg_content {
+	background-color: #67C583;
+}
+
+.bg_side {
+	background-color: #67C583;
+}
+
+.content_link {
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 0.8em;
+}
+
+/* ------------- DROPDOWN MENU ------------*/
+
+} .click {
+	height: 70px;
+	cursor: pointer;
+
+} .hidden {
+	display: none;
+	border: 1px solid black;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+	margin: 0px;
+	margin-top: 22px;
+
+	position: absolute;
+	width: 250px;
+
+	opacity: 1;
+	text-decoration: none;
+	background-color: rgba(190, 190, 190, 1);
+
+.hidden a:hover {
+	background-color: #f1f1f1;
+}
+
+} li:hover .hidden {
+	display: block;
+
+} li:active .hidden {
+	display: block;
+
+} .wdata_name {
+	text-align: left;
+	padding-left: 40px;
+	width: 60%;
+
+} .wdata_value {
+	float: right;
+
+} .wdata_unit {
+	text-align: left;
+	padding-right: 40px;
+}
+
+
+/* ----------- WeatherPi: Graph ------------ */
+
+.anker {
+	float:left;
+	background-color: rgba(161,202,245,0.65);
+	display:none;
+}
+
+.graph {
+	float: left;
+	position: relative;
+	text-align: center;
+
+	max-width: 90%;
+	min-width: 90%;
+	min-height: 400px;
+
+	z-index: -10;
+	padding: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+	margin-left: 3.5%;
+	font-size: 1em;
+	background-color: rgba(44, 159, 98, 0.3);
+
+} .container {
+        width: 80%;
+        margin: 20px auto;
+
+} .bg_buttons {
+	background-color: none;
+
+} .nice_button {
+	  background-color: #4CAF50; /* Green */
+		border: 1px solid brown;
+	  color: black;
+	  padding: 15px 30px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	}
+
+	button:hover {
+		border: 1px solid black;
+	}
+
+    .inner_graph {
+	width: 70%;
+	float: left;
+    }
+
+    input {
+	border: none;
+	width: 275px;
+	height: 50px;
+	font-size: 0.7em;
+	padding: 10px;
+
+    } td {
+	font-size: 1em;
+	text-align: center;
+
+    } .ci {
+	width: 100%;
+
+    } .p {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 140px;
+    }
+
+.form_wdata {
+	  height: 10px;
+    width: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+} .menu {
+	display: none;
+} .logo_menu {
+	display: none;
+}
